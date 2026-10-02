@@ -1,0 +1,32 @@
+{
+  "name": "zc-hn-scout-mcp",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Standard job-search MCP for news.ycombinator.com (portable channel scraper).",
+  "license": "MIT",
+  "bin": {
+    "zc-hn-scout-mcp": "./stdio_mcp_server.mjs",
+    "zc-scout-mcp": "./stdio_mcp_server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "jobs",
+    "job-search",
+    "news.ycombinator.com",
+    "stdio"
+  ],
+  "files": [
+    "stdio_mcp_server.mjs",
+    "README.md",
+    "LICENSE",
+    "skills/**",
+    "_shared/**"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  }
+}
